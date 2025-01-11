@@ -22,3 +22,6 @@ vim.opt.number = true               -- 保留普通行号显示
 
 -- 全局禁用自动格式化:LSP 会自动修改 format
 vim.g.autoformat = false
+
+-- 全局禁用诊断功能
+vim.diagnostic.disable()
