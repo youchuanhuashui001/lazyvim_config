@@ -7,6 +7,9 @@ return {
 				clangd = {
 					cmd = { "clangd", "--background-index", "--clang-tidy" },
 					filetypes = { "c", "cpp", "objc", "objcpp" },
+					init_options = {
+						compilationDatabasePath = "./", -- compile_commands.json 所在目录
+					},
 				},
 			},
 		},
@@ -38,6 +41,7 @@ return {
 		opts = {
 			ensure_installed = {
 				"c",
+				"cpp",
 				"python",
 				"asm",
 				"make",
