@@ -1,4 +1,4 @@
--- return {
---   -- disable trouble
---   { "folke/noice.nvim", enabled = false },
--- }
+return {
+  -- disable trouble
+  { "folke/noice.nvim", enabled = false },
+}
